@@ -1,0 +1,28 @@
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+    flex-flow: row nowrap;
+    display: block;
+    padding-bottom: 100px;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    flex-flow: row nowrap;
+    
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.me {
+    scale: 0.05;
+    position: "0.001 0 0";
+}
