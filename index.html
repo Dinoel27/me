@@ -3,8 +3,10 @@
 <head>
 <meta charset="utf-8">
 
-<title>me</title>
+<title>Leo Danenkov - Spatial</title>
 <script src="./dist/mr.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/mrjs@latest/dist/mr.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/gh/volumetrics-io/mrjs/dist/mr.js"></script> -->
 <link rel="stylesheet" type="text/css" href="style.css"/>
 
 </head>
@@ -13,12 +15,25 @@
 
 <mr-app debug="true" class="app">
     <mr-entity>
-    <mr-text class="title" data-comp-anchor="type:plane; label:table;">About me page</mr-text>
-    <mr-light color="white" intensity="1" data-position="0.1 0.1 0"></mr-light>
-    <!-- <mr-light color="white" intensity="1" data-position="-0.1 -0.1 0" data-rotation="45 0 0"></mr-light> -->
-    <mr-model src="./assets/me.glb" class="me" data-rotation="0 0 0" data-position="0 -0.5 0"></mr-model>
-    <mr-text class="subtitle">Hellow, I am Leo a designer and a spatial dreamer.</mr-text>
+    <!-- <mr-text class="title"">About me page</mr-text> -->
+        <mr-light class="#ff9a00" color="orange" intensity ="10" data-position="0 1.2 0"></mr-light>
+
+
+  
+    <!-- <mr-text class="subtitle-l">Hellow, I am Leonid</mr-text>
+    <mr-text class="subtitle-l" data-position="0 -0.04 0">mixed reality designer and prototyper</mr-text>
+    <mr-text class="subtitle-l" data-position="0 0.6 0">Welcome to my Spatial!</mr-text> -->
+
+   
+
+
+<!-- <mr-skybox src="./assets/intro_skybox.jpg"></mr-skybox> -->
+
+<mr-model src="./assets/intro_skybox.glb" class="intro" data-rotation="0 0 0" data-position="0 0 0"></mr-model> 
+
 </mr-entity>
+
+<mr-entity>  <mr-model src="./assets/me.glb" class="me" data-rotation="0 0 0" data-position="0.5 -2 -0.75"></mr-model> </mr-entity>
 </mr-app>
 
 
