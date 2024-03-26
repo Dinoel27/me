@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 
 <title>Leo Danenkov - Spatial</title>
-<script src="./dist/mr.js"></script>
+<!-- <script src="./dist/mr.js"></script> -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/mrjs@latest/dist/mr.js"></script> -->
 <!-- <script src="https://cdn.jsdelivr.net/gh/volumetrics-io/mrjs/dist/mr.js"></script> -->
 <link rel="stylesheet" type="text/css" href="style.css"/>
@@ -13,10 +13,10 @@
 
 <body>
 
-<mr-app debug="true" class="app">
+<mr-app class="app">
     <mr-entity>
     <!-- <mr-text class="title"">About me page</mr-text> -->
-        <mr-light class="#ff9a00" color="orange" intensity ="10" data-position="0 1.2 0"></mr-light>
+        <!-- <mr-light class="#ff9a00" color="orange" intensity ="10" data-position="0 1.2 0"></mr-light> -->
 
 
   
@@ -24,18 +24,47 @@
     <mr-text class="subtitle-l" data-position="0 -0.04 0">mixed reality designer and prototyper</mr-text>
     <mr-text class="subtitle-l" data-position="0 0.6 0">Welcome to my Spatial!</mr-text> -->
 
+    <!-- <mr-skybox src="./textures/skyboxes/sky.png" scale="3 3 3" class="section" id="section1"></mr-skybox> -->
    
 
 
 <!-- <mr-skybox src="./assets/intro_skybox.jpg"></mr-skybox> -->
 
-<mr-model src="./assets/intro_skybox.glb" class="intro" data-rotation="0 30 0" data-position="0 1 0"></mr-model> 
+<!-- <mr-model src="./assets/intro_skybox.glb" class="intro" data-rotation="0 30 0" data-position="0 1 0"></mr-model>   -->
 
 </mr-entity>
 
 <!-- <mr-entity>  <mr-model src="./assets/me.glb" class="me" data-rotation="0 0 0" data-position="0.5 -1.5 -0.75"></mr-model> </mr-entity> -->
 </mr-app>
 
+<canvas class="webgl"></canvas>
+
+<section id="section1" class = "section">
+    <h2>Project 1</h2>
+    <p2 class="paragraph"> Description about the project where I share my thoughts etc this is a test. Description about the project where I share my thoughts etc this is a testDescription about the project where I share my thoughts etc this is a test</p2>
+</section>
+
+<section id="section2" class = "section">
+    <h2>Project 2</h2>
+    <p2 class="paragraph"> Description about the project where I share my thoughts etc this is a test. Description about the project where I share my thoughts etc this is a testDescription about the project where I share my thoughts etc this is a test</p2>
+</section>
+<section id="section3" class = "section">
+    <h2>Project 3</h2>
+    <p2 class="paragraph"> Description about the project where I share my thoughts etc this is a test. Description about the project where I share my thoughts etc this is a testDescription about the project where I share my thoughts etc this is a test</p2>
+</section>
+
+<section id="section4" class="section">
+    <h2>Project 4</h2>
+    <p2 class="paragraph"> Description about the project where I share my thoughts etc this is a test. Description about the project where I share my thoughts etc this is a testDescription about the project where I share my thoughts etc this is a test</p2>
+</section>
+
+<section id="section5" class="section">
+    <h2>Project 5</h2>
+    <p2 class="paragraph"> Description about the project where I share my thoughts etc this is a test. Description about the project where I share my thoughts etc this is a testDescription about the project where I share my thoughts etc this is a test</p2>
+</section>
+
+
+<script type="module" src="./script.js"></script>
 
 </body>
 </html>
